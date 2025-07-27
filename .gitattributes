@@ -1,2 +1,9 @@
+# Set default behavior
+* text=auto
+
+# Define LF for bash scripts
+*.sh text eol=lf
 /mvnw text eol=lf
+
+# Define CRLF for Windows batch scripts
 *.cmd text eol=crlf
