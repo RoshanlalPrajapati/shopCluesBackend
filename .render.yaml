@@ -1,0 +1,9 @@
+# .render.yaml
+services:
+  - type: web
+    name: shopCluesBackend
+    env: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
